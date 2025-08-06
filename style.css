@@ -1,0 +1,32 @@
+body {
+    margin: 0 !important;
+}
+
+.container {
+    background-color: rgb(194, 226, 255);
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#game-board {
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    aspect-ratio: 1 / 1;
+}
+
+#game-board div, #game-board {
+    outline: 2px solid rgb(241, 245, 255);
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
